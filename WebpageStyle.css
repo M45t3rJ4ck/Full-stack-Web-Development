@@ -1,0 +1,56 @@
+.fox {
+  color:#796B09; 
+  font-size:200%;
+  font-family:Georgia;
+  }
+h1 {
+  color:#5347E0; 
+  font-size:250%;
+  font-family:Comic Sans MS;
+  font-weight:bold;
+  font-style:italic;
+  }
+.underlined {
+  color:#D10C0C;
+  text-decoration:underline;
+  font-family:Courier New;
+  }
+.text {
+  color:#308F36;
+  font-size:150%;
+  font-family:fantasy;
+  }
+#fSect {
+  background-color:#EF07A2;
+  width:300px;
+  height:250px;
+  padding: 5px;
+  position:relative;
+  left:150px;
+  top:340px;
+  z-index:1;
+  border:5px #1B5FE8 solid;
+  opacity:0.7;
+  }
+.clear-float {
+  clear:bloth;
+  }
+#sSect {
+  background-color:#D86B0B;
+  width:300px;
+  height:250px;
+  padding: 5px;
+  float:right;
+  z-index:4;
+  border-radius:50%;
+  text-align:center;
+  }
+#tSect {
+  background-color:#39EFE5;
+  padding: 5px;
+  margin-top:50px;
+  margin-bottom:50px;
+  margin-left:50px;
+  margin-right:50px;
+  text-align:justify;
+  }

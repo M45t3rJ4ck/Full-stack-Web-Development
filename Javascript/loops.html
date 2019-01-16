@@ -1,0 +1,43 @@
+<html>
+
+	<head>
+	
+		<title>Javascript</title>
+		
+		<style></style>
+		
+	</head>
+	
+	<body>
+	
+		<div id="tweetDiv"></div>
+	
+		<script type="text/javascript">
+		
+			var tweetString = "";
+		
+			var tweets = ["Here bru, have a craft ale!", "So we're still on for that pizza?", "How's your crop comming along?", "Sweet dreams are made of these!"];
+			
+			for (var i = 0; i < tweets.length; i++){
+				alert(tweets[i]);
+				tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+				document.getElementById("tweetDiv").innerHTML = tweetString;
+			}
+			
+			for (var i = 0; i < 5; i++){
+				alert(i);
+			}
+			
+			for (var j = 23; j < 40; j++){
+				alert(j);
+			}
+			
+			for (var h = 100; h > 80; h--){
+				alert(h);
+			}
+		
+		</script>
+	
+	</body>
+	
+</html>

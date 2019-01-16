@@ -1,0 +1,53 @@
+<html>
+
+	<head>
+	
+		<title>jQuery</title>
+		
+		<style type="text/css" src="C:/Code/WebBased/jQuery-3.3.1.js">
+		
+			#circle{
+				width:150px;
+				height:150px;
+				border-radius:50%;
+				margin:10px;
+				background-color:green;
+			}
+			
+			#square{
+				width:150px;
+				height:150px;
+				background-color:blue;
+				margin:10px;
+			}
+		
+		</style>
+		
+	</head>
+	
+	<body>
+	
+		<div id="circle"></div>
+		
+			<p id="circleText">This is some text.</p>
+		
+		<div id="square"></div>
+		
+			<iframe src="http://www.wikipedia.org"></iframe>
+	
+		<script type="text/javascript">
+		
+			$("#circle").click(function(){
+				$("circleText").html("This text has changed.");
+				alert($("circleText").html());
+			});
+			
+			$("#square").hover(function(){
+				$("iframe").attr("src", "https://www.google.com")
+			});
+		
+		</script>
+	
+	</body>
+	
+</html>

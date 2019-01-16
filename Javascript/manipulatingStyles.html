@@ -1,0 +1,55 @@
+<html>
+
+	<head>
+	
+		<title>Javascript</title>
+		
+		<style></style>
+		
+	</head>
+	
+	<body>
+	
+		<p id="paragraph1">Some text for line one...</p>
+		
+			<button id="btn1">..Change Text..</button>
+		
+		<p id="paragraph2">Some more text for line two..</p>
+		
+			<button id="btn2">..Append Text..</button>
+		
+		<p id="paragraph3"></p>
+		
+			<button id="btn3">..Create Text..</button>
+		
+		<p id="paragraph4">You thought I forgot to answer he?</p>
+		
+			<button id="btn4">..Style Text..</button>
+	
+		<script type="text/javascript">
+		
+			document.getElementById("btn1").onclick = function(){
+				document.getElementById("paragraph1").innerHTML = "<h1>Hello Stranger!</h1>";
+				document.getElementById("paragraph1").style.display = "none";
+			}
+			
+			document.getElementById("btn2").onclick = function(){
+				document.getElementById("paragraph2").innerHTML = "But wait...there's " + document.getElementById("paragraph2").innerHTML + " and the next line!";
+				document.getElementById("paragraph2").style.fontSize = "50px";
+			}
+			
+			document.getElementById("btn3").onclick = function(){
+				document.getElementById("paragraph3").innerHTML = "Don't worry, be happy - I'lll always have more text for you!";
+				document.getElementById("paragraph3").style.color = "green";			
+			}
+			
+			document.getElementById("btn4").onclick = function(){
+				document.getElementById("paragraph4").style.color = "red";
+				document.getElementById("paragraph4").innerHTML = "<h2>" + document.getElementById("paragraph4").innerHTML + "</h2>";
+			}
+		
+		</script>
+	
+	</body>
+	
+</html>

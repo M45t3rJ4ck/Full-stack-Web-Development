@@ -1,0 +1,49 @@
+<html>
+
+	<head>
+	
+		<title>Javascript</title>
+		
+		<style></style>
+		
+	</head>
+	
+	<body>
+	
+		<div>
+		
+			<p>What is the magic word?</p>
+			
+			<input type="text" id="magicWordIn"></input>
+			
+			<button id="magicWordBtn">..Roll Up..</button>
+		
+		</div>
+	
+		<script type="text/javascript">
+			
+			document.getElementById("magicWordBtn").onclick = function(){
+				var magicWordEntered = document.getElementById("magicWordIn").value;
+				
+				var magicWord = "abracadabra";
+				
+				if (magicWordEntered == magicWord){
+					alert("You got it right!")
+				} else{
+					alert("Maybe next time!")
+				}
+			}
+			
+			var x = 3;
+			
+			if (x == 1){
+				alert("x is 1!!");
+			} else{
+				alert("x is not 1!!");
+			}
+		
+		</script>
+	
+	</body>
+	
+</html>

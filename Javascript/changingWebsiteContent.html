@@ -1,0 +1,41 @@
+<html>
+
+	<head>
+	
+		<title>Javascript</title>
+		
+	</head>
+	
+	<body>
+	
+		<p id="firstParagraph">Here is some text for you to enjoy!</p>
+		
+			<button id="btn1">..Change Text..</button>
+		
+		<p id="secondParagraph">And guess what...Yes, more text for you!</p>
+		
+			<button id="btn2">..Appened Text..</button>
+		
+		<p id="emptyParagraph"></p>
+			
+			<button id="btn3">..Create Text..</button>
+	
+		<script type="text/javascript">
+		
+			document.getElementById("btn1").onclick = function(){
+				document.getElementById("firstParagraph").innerHTML = "<h1>Hello stranger!</h1>";
+			}
+			
+			document.getElementById("btn2").onclick = function(){
+				document.getElementById("secondParagraph").innerHTML = "No need to worry " + document.getElementById("secondParagraph").innerHTML + " But wait...there's more comming!!";
+			}
+			
+			document.getElementById("btn3").onclick = function(){
+				document.getElementById("emptyParagraph").innerHTML = "Supprise...no you shoudn't be, I told you a line ago about it comming!"
+			}
+		
+		</script>
+	
+	</body>
+	
+</html>
